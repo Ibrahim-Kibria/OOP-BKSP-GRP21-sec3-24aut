@@ -7,10 +7,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <BorderPane layoutX="-4.0" layoutY="-8.0" prefHeight="482.0" prefWidth="585.0">
+      <BorderPane layoutY="-8.0" prefHeight="482.0" prefWidth="600.0">
          <left>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#90ff2150" height="399.0" stroke="BLACK" strokeType="INSIDE" width="104.0" BorderPane.alignment="CENTER" />
          </left>
