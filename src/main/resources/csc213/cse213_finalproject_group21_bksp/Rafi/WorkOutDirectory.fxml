@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="699.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csc213.cse213_finalproject_group21_bksp.Rafi.WorkOutDirectoryController">
+   <children>
+      <Label layoutX="328.0" layoutY="14.0" prefHeight="63.0" prefWidth="501.0" text="THIS IS YOUR WORKOUT DIRECOTORY">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TableView layoutX="254.0" layoutY="128.0" onSort="#WorkOutDirectoryCol" prefHeight="361.0" prefWidth="632.0">
+        <columns>
+          <TableColumn fx:id="DateCol" prefWidth="155.0" text="DATE" />
+          <TableColumn fx:id="WorkOutTypeCol" prefWidth="224.0" text="WORKOUT TYPE" />
+            <TableColumn fx:id="HourCol" prefWidth="130.0" text="HOUR" />
+            <TableColumn fx:id="MinuteCol" prefWidth="117.0" text="MINUTE" />
+        </columns>
+      </TableView>
+      <Button layoutX="447.0" layoutY="567.0" mnemonicParsing="false" onAction="#BackToCreateWorkoutBOA" prefHeight="63.0" prefWidth="263.0" text="BACK TO CREATE WORKOUT" />
+   </children>
+</AnchorPane>

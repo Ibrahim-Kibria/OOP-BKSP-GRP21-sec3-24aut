@@ -20,7 +20,7 @@
          </font>
       </Button>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94ff214c" height="406.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
-      <Button layoutX="141.0" layoutY="113.0" mnemonicParsing="false" onAction="#centalizedOversight" prefHeight="47.0" prefWidth="140.0" text="Centralized Oversight" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="141.0" layoutY="113.0" mnemonicParsing="false" onAction="#centralizedOversight" prefHeight="47.0" prefWidth="140.0" text="Centralized Oversight" textAlignment="CENTER" wrapText="true" />
       <Button layoutX="396.0" layoutY="113.0" mnemonicParsing="false" onAction="#hireApproval" prefHeight="47.0" prefWidth="140.0" text="Hire Approval" textAlignment="CENTER" wrapText="true" />
       <Button layoutX="141.0" layoutY="183.0" mnemonicParsing="false" onAction="#curriculumManagement" prefHeight="47.0" prefWidth="140.0" text="Curriculum Management" textAlignment="CENTER" wrapText="true" />
       <Button layoutX="396.0" layoutY="183.0" mnemonicParsing="false" onAction="#addUser" prefHeight="47.0" prefWidth="140.0" text="Add Users" />
