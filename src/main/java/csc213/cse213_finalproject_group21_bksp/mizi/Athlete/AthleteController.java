@@ -1,4 +1,4 @@
-package csc213.cse213_finalproject_group21_bksp.mizi;
+package csc213.cse213_finalproject_group21_bksp.mizi.Athlete;
 
 import java.util.List;
 
