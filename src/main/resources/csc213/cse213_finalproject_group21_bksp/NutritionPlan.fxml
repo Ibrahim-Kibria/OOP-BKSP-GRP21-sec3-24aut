@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="100.0" layoutY="86.0" prefHeight="315.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="30.0" prefHeight="39.0" prefWidth="183.0" style="-fx-background-color: yellow;" text=" Athlete Nutrition Plan" textFill="#1f1e17">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" layoutX="54.0" layoutY="188.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="117.0" text="CALCULATE" textAlignment="CENTER" textFill="#5cb311">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="149.0" prefHeight="18.0" prefWidth="19.0" style="-fx-background-color: yellow;" text="ID" textFill="#1f1e17">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField layoutX="54.0" layoutY="145.0" prefHeight="18.0" prefWidth="135.0" />
+            <Label alignment="CENTER" layoutX="79.0" layoutY="81.0" prefHeight="18.0" prefWidth="54.0" style="-fx-background-color: yellow;" text="BMI" textFill="#1f1e17">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Line endX="-49.66668701171875" endY="116.33331298828125" layoutX="281.0" layoutY="123.0" startX="-49.66668701171875" startY="-123.00000762939453" strokeWidth="4.0" />
+            <AnchorPane layoutX="233.0" layoutY="1.0" prefHeight="243.0" prefWidth="265.0">
+               <children>
+                  <TableView layoutX="18.0" layoutY="78.0" prefHeight="144.0" prefWidth="229.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="CALORIE" />
+                        <TableColumn prefWidth="75.0" text="PROTEIN " />
+                      <TableColumn prefWidth="75.0" text="FATS " />
+                    </columns>
+                  </TableView>
+                  <Label alignment="CENTER" layoutX="47.0" layoutY="27.0" prefHeight="32.0" prefWidth="156.0" style="-fx-background-color: yellow;" text="DAILY INTAKE LIMIT" textFill="#1f1e17">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button alignment="CENTER" layoutX="133.0" layoutY="254.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="183.0" text="PROCEED TO FITNESS PLAN" textAlignment="CENTER" textFill="#5cb311">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#90ff2150" height="315.0" layoutX="-4.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94ff214c" height="86.0" layoutX="-4.0" stroke="BLACK" strokeType="INSIDE" width="604.0" />
+   </children>
+</AnchorPane>
