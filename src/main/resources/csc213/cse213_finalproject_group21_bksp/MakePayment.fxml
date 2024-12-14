@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94ff214d" height="75.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="177.0" layoutY="115.0" prefHeight="32.0" prefWidth="309.0" style="-fx-background-color: yellow;" text="Make Payment" textFill="#1f1e17">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#90ff2150" height="327.0" layoutY="73.0" stroke="BLACK" strokeType="INSIDE" width="116.0" />
+      <ComboBox layoutX="177.0" layoutY="237.0" prefHeight="25.0" prefWidth="309.0" />
+      <TextField layoutX="177.0" layoutY="171.0" prefHeight="26.0" prefWidth="133.0" promptText="Enter Sponsor ID" />
+      <TextField layoutX="353.0" layoutY="171.0" prefHeight="25.0" prefWidth="133.0" promptText="Enter Amount" />
+      <Text fill="#0000005a" layoutX="177.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Athlete" wrappingWidth="116.0">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#0000005a" layoutX="177.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Card type" wrappingWidth="82.6666259765625">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#0000005a" layoutX="329.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="82.6666259765625">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="177.0" layoutY="291.0" prefHeight="25.0" prefWidth="309.0" />
+      <TextField layoutX="177.0" layoutY="327.0" prefHeight="26.0" prefWidth="133.0" promptText="Enter Account Id" />
+      <TextField layoutX="353.0" layoutY="327.0" prefHeight="25.0" prefWidth="133.0" promptText="Enter Card Pin" />
+      <Button alignment="CENTER" layoutX="179.0" layoutY="360.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="309.0" text="Make Payment" textAlignment="CENTER" textFill="#5cb311">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
