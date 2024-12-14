@@ -55,4 +55,3 @@ public class AthleteController {
         return athleteService.getCurrentSponsors(athleteId);
     }
 
-
